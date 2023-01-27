@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFrameworks>net6.0-windows;net48</TargetFrameworks>
@@ -14,6 +14,16 @@
     <Authors>Daniel Sabel</Authors>
     <Copyright>(c) Daniel Sabel ($([System.DateTime]::Now.ToString(yyyy)))</Copyright>
     <PackageId>AdvancedRpcLib.ChildProcess</PackageId>
+    <PackageProjectUrl>https://github.com/fsdsabel/AdvancedRpcLib.ChildProcess</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/fsdsabel/AdvancedRpcLib.ChildProcess</RepositoryUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
