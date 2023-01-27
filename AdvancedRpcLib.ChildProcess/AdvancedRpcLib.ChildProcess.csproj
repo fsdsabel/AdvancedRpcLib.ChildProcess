@@ -17,9 +17,15 @@
     <PackageProjectUrl>https://github.com/fsdsabel/AdvancedRpcLib.ChildProcess</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/fsdsabel/AdvancedRpcLib.ChildProcess</RepositoryUrl>
+    <PackAsTool>False</PackAsTool>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Include="..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
