@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0-windows;net48</TargetFrameworks>
+    <LangVersion>8.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <Title>AdvancedRpcLib.ChildProcess</Title>
+    <Version>$(VersionPrefix)</Version>
+    <Description>A library to manage the lifetime of child processes on Windows.</Description>
+    <Authors>Daniel Sabel</Authors>
+    <Copyright>(c) Daniel Sabel ($([System.DateTime]::Now.ToString(yyyy)))</Copyright>
+    <PackageId>AdvancedRpcLib.ChildProcess</PackageId>
+  </PropertyGroup>
+
+</Project>
